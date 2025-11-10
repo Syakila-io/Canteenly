@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="5.0" etag="xxx" version="22.1.16" type="device">
+  <diagram name="Canteenly Desktop Wireframes" id="canteenly-wireframes">
+    <mxGraphModel dx="2000" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="1024" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Landing Page Desktop -->
+        <mxCell id="landing-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1360" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="landing-header" value="LOGO CANTEENLY                                                                                                                                                                                    MASUK        DAFTAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="1320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="landing-hero" value="SELAMAT DATANG DI CANTEENLY&#xa;Sistem Kantin Digital Terdepan&#xa;Nikmati kemudahan berbelanja di kantin sekolah dengan sistem digital yang modern&#xa;&#xa;[        MULAI SEKARANG        ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;text-align:center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="720" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="landing-categories" value="[GAMBAR PRODUK]        [GAMBAR PRODUK]        [GAMBAR PRODUK]        [GAMBAR PRODUK]&#xa;KATEGORI MINUMAN      KATEGORI MAKANAN      KATEGORI ATK           KATEGORI OBAT&#xa;Teh Botol, Air Mineral    Roti, Qtela, Chitato      Pensil, Pulpen, Buku     Paracetamol, Vitamin C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="1120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="landing-features" value="FITUR UNGGULAN&#xa;&#xa;[ICON] MUDAH DIGUNAKAN          [ICON] HEMAT WAKTU          [ICON] AMAN & TERPERCAYA&#xa;Interface user-friendly           Pesan dari kelas              Sistem pembayaran aman&#xa;&#xa;[ICON] TRACKING PESANAN         [ICON] MULTI USER           [ICON] CUSTOMER SUPPORT&#xa;Status pesanan real-time         Untuk siswa, guru, staff      Bantuan 24/7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#999999;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="1120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="landing-testimonials" value="TESTIMONI PENGGUNA&#xa;&#xa;[AVATAR] Rafi Pratama - Siswa 12 RPL 2                    [AVATAR] Alya Sari - Siswa 12 RPL 1                    [AVATAR] Pak Joko - Guru Matematika&#xa;\"Canteenly sangat membantu! Sekarang saya bisa          \"Interface-nya mudah dipahami dan pembayaran           \"Sebagai guru, saya terbantu dengan sistem\npesan makanan dari kelas tanpa antri panjang\"           digitalnya sangat praktis. Recommended banget!\"        pre-order ini. Bisa pesan dari ruang guru\"" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="160" y="740" width="1120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="landing-title" value="1. Landing Page (Desktop 1440x1024)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="1360" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Login Page Desktop -->
+        <mxCell id="login-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="40" width="1360" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="login-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="60" width="1320" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="login-form" value="LOGIN&#xa;&#xa;Email&#xa;[________________________________________________]&#xa;&#xa;Password&#xa;[________________________________________________]&#xa;&#xa;[                    MASUK                    ]&#xa;&#xa;Belum punya akun? Daftar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;text-align:center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="280" width="440" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="login-logo" value="LOGO CANTEENLY&#xa;Sistem Kantin Digital" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;text-align:center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="180" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="login-title" value="2. Login Page (Desktop 1440x1024)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="10" width="1360" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Register Page Desktop -->
+        <mxCell id="register-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="1360" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="register-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="60" y="900" width="1320" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="register-form" value="DAFTAR AKUN&#xa;&#xa;Nama Lengkap&#xa;[________________________________________________]&#xa;&#xa;Email&#xa;[________________________________________________]&#xa;&#xa;Password&#xa;[________________________________________________]&#xa;&#xa;Kelas&#xa;[________________________________________________]&#xa;&#xa;Gender&#xa;[Laki-laki                                    ▼]&#xa;&#xa;[                    DAFTAR                    ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;text-align:center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1020" width="440" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="register-logo" value="LOGO CANTEENLY&#xa;Sistem Kantin Digital" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;text-align:center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="500" y="920" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="register-title" value="3. Register Page (Desktop 1440x1024)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="850" width="1360" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- User Dashboard -->
+        <mxCell id="dashboard-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="dashboard-header" value="CANTEENLY                    Halo, [Nama User]    LOGOUT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="50" y="330" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dashboard-nav" value="Dashboard    Produk    Pesanan    Riwayat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dashboard-greeting" value="Assalamualaikum, [Nama User]!&#xa;Selamat datang di kantin digital" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dashboard-stats" value="TOTAL PRODUK        TOTAL PESANAN        TOTAL PENGELUARAN&#xa;      25                      8                   Rp 150.000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="450" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dashboard-title" value="4. User Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="320" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Product Catalog -->
+        <mxCell id="products-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="products-header" value="CANTEENLY                                    KERANJANG (3)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="410" y="330" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="products-nav" value="Semua    Minuman    Makanan    ATK    Obat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="products-grid" value="[GAMBAR PRODUK]    [GAMBAR PRODUK]&#xa;Teh Botol Sosro         Indomie Goreng&#xa;Rp 5.000                  Rp 3.500&#xa;[TAMBAH KE KERANJANG] [TAMBAH KE KERANJANG]&#xa;&#xa;[GAMBAR PRODUK]    [GAMBAR PRODUK]&#xa;Pulpen Standard         Paracetamol&#xa;Rp 2.000                  Rp 1.500&#xa;[TAMBAH KE KERANJANG] [TAMBAH KE KERANJANG]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="410" y="400" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="products-cart" value="KERANJANG&#xa;&#xa;Teh Botol x2&#xa;Rp 10.000&#xa;&#xa;Indomie x1&#xa;Rp 3.500&#xa;&#xa;Total: Rp 13.500&#xa;&#xa;[CHECKOUT]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="400" width="90" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="products-title" value="5. Katalog Produk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="320" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Checkout Page -->
+        <mxCell id="checkout-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="760" y="320" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="checkout-cart" value="KERANJANG&#xa;&#xa;Teh Botol x2&#xa;Rp 10.000&#xa;&#xa;Indomie x1&#xa;Rp 3.500&#xa;&#xa;Total: Rp 13.500" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="770" y="340" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="checkout-form" value="DATA PEMESANAN&#xa;&#xa;Kelas&#xa;[12 RPL 1]&#xa;Ruangan&#xa;[Lab Komputer]&#xa;Metode Pembayaran&#xa;[DANA ▼]&#xa;Upload Bukti Pembayaran&#xa;[Choose File]&#xa;Catatan&#xa;[________________]&#xa;&#xa;[BUAT PESANAN]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="340" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="checkout-title" value="6. Checkout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;" vertex="1" parent="1">
+          <mxGeometry x="760" y="290" width="320" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- User Orders -->
+        <mxCell id="orders-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="orders-nav" value="Semua    Menunggu    Selesai    Dibatalkan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="50" y="610" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="orders-list" value="Pesanan #001 - Rafi Pratama&#xa;Teh Botol x2, Indomie x1&#xa;Total: Rp 13.500    Status: MENUNGGU&#xa;[DETAIL] [BATALKAN]&#xa;&#xa;Pesanan #002 - Rafi Pratama&#xa;Pulpen x3&#xa;Total: Rp 6.000    Status: SELESAI&#xa;[DETAIL]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="640" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="orders-title" value="7. Pesanan User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;" vertex="1" parent="1">
+          <mxGeometry x="40" y="570" width="320" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Admin Dashboard -->
+        <mxCell id="admin-dash-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="400" y="600" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-dash-header" value="CANTEENLY ADMIN                    Admin    LOGOUT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="410" y="610" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-dash-nav" value="Dashboard    Produk    Pesanan    Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="410" y="650" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-dash-greeting" value="Assalamualaikum Admin 🧕🏽&#xa;Sistem siap menerima pesanan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="410" y="680" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-dash-stats" value="TOTAL PRODUK    TOTAL PESANAN    TOTAL PENDAPATAN    PESANAN MENUNGGU&#xa;      25                150              Rp 2.500.000              5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="410" y="720" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-dash-title" value="8. Admin Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="320" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Admin Products -->
+        <mxCell id="admin-products-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="760" y="600" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-products-header" value="KELOLA PRODUK                    [TAMBAH PRODUK]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="770" y="610" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-products-table" value="No | NAMA PRODUK | KATEGORI | HARGA | STOK | AKSI&#xa;1  | Teh Botol Sosro | Minuman | Rp 5.000 | 50 | [EDIT] [HAPUS]&#xa;2  | Indomie Goreng | Makanan | Rp 3.500 | 30 | [EDIT] [HAPUS]&#xa;3  | Pulpen Standard | ATK | Rp 2.000 | 100 | [EDIT] [HAPUS]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="770" y="650" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-products-title" value="9. Admin Kelola Produk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;" vertex="1" parent="1">
+          <mxGeometry x="760" y="570" width="320" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Admin Orders -->
+        <mxCell id="admin-orders-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="360" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-orders-header" value="KELOLA PESANAN                    [SELESAI SEMUA]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="370" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-orders-nav" value="Semua    Menunggu    Selesai    Dibatalkan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="410" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-orders-table" value="No | NAMA PEMBELI | KELAS | PRODUK | JUMLAH | TOTAL | STATUS | AKSI&#xa;1  | Rafi Pratama | 12 RPL 2 | Teh Botol | 2 | Rp 10.000 | Menunggu | [EDIT] [HAPUS] [Selesai ▼]&#xa;2  | Alya Sari | 12 RPL 1 | Indomie | 1 | Rp 3.500 | Menunggu | [EDIT] [HAPUS] [Selesai ▼]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="440" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-orders-title" value="10. Admin Kelola Pesanan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="330" width="320" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Mobile View -->
+        <mxCell id="mobile-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="580" width="160" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile-header" value="☰ CANTEENLY    🛒 (2)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="590" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile-hero" value="Dashboard Mobile&#xa;Optimized untuk smartphone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="630" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile-grid" value="[PRODUK]    [PESANAN]&#xa;&#xa;&#xa;[RIWAYAT]   [PROFIL]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="680" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile-title-fixed" value="12. Mobile View (Responsive)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="550" width="160" height="20" as="geometry" />
+        </mxCell>
+        <!-- Add Product Form -->
+        <mxCell id="add-product-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="880" y="40" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="add-product-form" value="TAMBAH PRODUK BARU&#xa;&#xa;Nama Produk&#xa;[________________]&#xa;Kategori&#xa;[Minuman Kemasan ▼]&#xa;Harga&#xa;[________________]&#xa;Stok&#xa;[________________]&#xa;Deskripsi&#xa;[________________]&#xa;Gambar Produk&#xa;[Choose File]&#xa;Status&#xa;[Aktif ▼]&#xa;&#xa;[SIMPAN PRODUK] [BATAL]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;text-align:center;" vertex="1" parent="1">
+          <mxGeometry x="890" y="60" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="add-product-title" value="11. Form Tambah Produk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;color=#555555;" vertex="1" parent="1">
+          <mxGeometry x="880" y="10" width="200" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

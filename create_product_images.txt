@@ -1,0 +1,32 @@
+DAFTAR GAMBAR PRODUK YANG DIBUTUHKAN:
+
+Simpan gambar-gambar berikut di folder: public/assets/img/products/
+
+MINUMAN KEMASAN:
+1. teh-botol-sosro.jpg - Teh Botol Sosro
+2. aqua.jpg - Air Mineral Aqua  
+3. coca-cola.jpg - Coca Cola
+4. buavita.jpg - Jus Buavita
+
+MAKANAN KEMASAN:
+5. sari-roti.jpg - Roti Sari Roti
+6. qtela-balado.jpg - Qtela Balado
+7. chitato.jpg - Chitato
+8. indomie-goreng.jpg - Indomie Goreng
+
+ATK:
+9. pensil-2b.jpg - Pensil 2B
+10. pulpen-biru.jpg - Pulpen Biru
+11. buku-tulis.jpg - Buku Tulis
+12. penghapus.jpg - Penghapus
+
+OBAT:
+13. paracetamol.jpg - Paracetamol
+14. vitamin-c.jpg - Vitamin C
+15. antangin.jpg - Antangin
+16. betadine.jpg - Betadine
+
+LANGKAH SETUP:
+1. Import file update_product_images.sql ke database
+2. Tambahkan gambar produk ke folder products/
+3. Refresh halaman produk untuk melihat gambar dari database

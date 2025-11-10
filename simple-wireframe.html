@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Wireframe Canteenly</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #f8f8f8; padding: 20px; }
+        .page { background: white; border: 2px solid #ddd; margin: 30px 0; padding: 0; max-width: 1200px; margin-left: auto; margin-right: auto; }
+        .page-title { background: #666; color: white; padding: 10px 20px; font-size: 18px; font-weight: bold; }
+        .content { padding: 20px; }
+        .box { background: #e8e8e8; border: 1px solid #ccc; padding: 15px; margin: 10px 0; text-align: center; color: #666; font-weight: bold; }
+        .header { background: #d0d0d0; border: 1px solid #bbb; padding: 15px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
+        .nav { background: #e0e0e0; border: 1px solid #ccc; padding: 10px; margin-bottom: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0; }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        .form-box { background: #f5f5f5; border: 1px solid #ccc; padding: 20px; max-width: 400px; margin: 20px auto; }
+        .input { background: #f0f0f0; border: 1px solid #ccc; padding: 8px; margin: 5px 0; width: 100%; }
+        .btn { background: #d5d5d5; border: 1px solid #bbb; padding: 8px 15px; margin: 5px; }
+        .sidebar { background: #e8e8e8; border: 1px solid #ccc; padding: 15px; width: 250px; float: left; margin-right: 20px; }
+        .main-content { overflow: hidden; }
+        .clearfix::after { content: ""; display: table; clear: both; }
+        .product-card { background: #f0f0f0; border: 1px solid #ccc; padding: 15px; text-align: center; }
+        .product-img { background: #ddd; height: 120px; margin-bottom: 10px; border: 1px solid #bbb; }
+        .table { background: #f8f8f8; border: 1px solid #ccc; width: 100%; }
+        .table th, .table td { border: 1px solid #ccc; padding: 10px; text-align: center; background: #f0f0f0; }
+        .table th { background: #e0e0e0; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<!-- Landing Page -->
+<div class="page">
+    <div class="page-title">1. LANDING PAGE</div>
+    <div class="content">
+        <div class="header">
+            <div>LOGO CANTEENLY</div>
+            <div>
+                <span class="btn">MASUK</span>
+                <span class="btn">DAFTAR</span>
+            </div>
+        </div>
+        <div class="box" style="padding: 40px; font-size: 24px;">
+            HERO SECTION<br>
+            <small style="font-size: 14px;">Selamat Datang di Canteenly</small>
+        </div>
+        <div class="grid grid-4">
+            <div class="box">KATEGORI<br>MINUMAN</div>
+            <div class="box">KATEGORI<br>MAKANAN</div>
+            <div class="box">KATEGORI<br>ATK</div>
+            <div class="box">KATEGORI<br>OBAT</div>
+        </div>
+    </div>
+</div>
+
+<!-- Login Page -->
+<div class="page">
+    <div class="page-title">2. LOGIN PAGE</div>
+    <div class="content">
+        <div class="form-box">
+            <div class="box" style="margin-bottom: 20px;">LOGIN FORM</div>
+            <div class="input">EMAIL INPUT</div>
+            <div class="input">PASSWORD INPUT</div>
+            <div class="btn" style="width: 100%; text-align: center;">LOGIN BUTTON</div>
+        </div>
+    </div>
+</div>
+
+<!-- Register Page -->
+<div class="page">
+    <div class="page-title">3. REGISTER PAGE</div>
+    <div class="content">
+        <div class="form-box">
+            <div class="box" style="margin-bottom: 20px;">REGISTER FORM</div>
+            <div class="input">NAMA INPUT</div>
+            <div class="input">EMAIL INPUT</div>
+            <div class="input">PASSWORD INPUT</div>
+            <div class="input">KELAS INPUT</div>
+            <div class="input">GENDER SELECT</div>
+            <div class="btn" style="width: 100%; text-align: center;">REGISTER BUTTON</div>
+        </div>
+    </div>
+</div>
+
+<!-- User Dashboard -->
+<div class="page">
+    <div class="page-title">4. USER DASHBOARD</div>
+    <div class="content">
+        <div class="header">
+            <div>CANTEENLY LOGO</div>
+            <div>USER MENU</div>
+        </div>
+        <div class="nav">NAVIGATION MENU</div>
+        <div class="box" style="padding: 30px;">WELCOME MESSAGE</div>
+        <div class="grid grid-3">
+            <div class="box">TOTAL<br>PRODUK</div>
+            <div class="box">TOTAL<br>PESANAN</div>
+            <div class="box">TOTAL<br>PENGELUARAN</div>
+        </div>
+    </div>
+</div>
+
+<!-- Product Catalog -->
+<div class="page">
+    <div class="page-title">5. KATALOG PRODUK</div>
+    <div class="content">
+        <div class="header">
+            <div>CANTEENLY</div>
+            <div>KERANJANG</div>
+        </div>
+        <div class="nav">FILTER KATEGORI</div>
+        <div class="grid grid-3">
+            <div class="product-card">
+                <div class="product-img">GAMBAR</div>
+                <div>NAMA PRODUK</div>
+                <div>HARGA</div>
+                <div class="btn">TAMBAH</div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">GAMBAR</div>
+                <div>NAMA PRODUK</div>
+                <div>HARGA</div>
+                <div class="btn">TAMBAH</div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">GAMBAR</div>
+                <div>NAMA PRODUK</div>
+                <div>HARGA</div>
+                <div class="btn">TAMBAH</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Checkout -->
+<div class="page">
+    <div class="page-title">6. CHECKOUT</div>
+    <div class="content clearfix">
+        <div class="sidebar">
+            <div class="box">KERANJANG<br>BELANJA</div>
+            <div class="box">ITEM 1</div>
+            <div class="box">ITEM 2</div>
+            <div class="box">TOTAL HARGA</div>
+        </div>
+        <div class="main-content">
+            <div class="box">FORM PEMESANAN</div>
+            <div class="input">KELAS</div>
+            <div class="input">RUANGAN</div>
+            <div class="input">CATATAN</div>
+            <div class="btn">PESAN SEKARANG</div>
+        </div>
+    </div>
+</div>
+
+<!-- User Orders -->
+<div class="page">
+    <div class="page-title">7. PESANAN USER</div>
+    <div class="content">
+        <div class="header">
+            <div>DAFTAR PESANAN</div>
+            <div>FILTER</div>
+        </div>
+        <table class="table">
+            <tr>
+                <th>NO</th>
+                <th>PRODUK</th>
+                <th>JUMLAH</th>
+                <th>TOTAL</th>
+                <th>STATUS</th>
+                <th>AKSI</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>PRODUK A</td>
+                <td>2</td>
+                <td>RP 10.000</td>
+                <td>PENDING</td>
+                <td>UPLOAD BUKTI</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- Admin Dashboard -->
+<div class="page">
+    <div class="page-title">8. ADMIN DASHBOARD</div>
+    <div class="content">
+        <div class="header">
+            <div>ADMIN PANEL</div>
+            <div>LOGOUT</div>
+        </div>
+        <div class="nav">ADMIN NAVIGATION</div>
+        <div class="grid grid-4">
+            <div class="box">TOTAL<br>PRODUK</div>
+            <div class="box">TOTAL<br>PESANAN</div>
+            <div class="box">TOTAL<br>USER</div>
+            <div class="box">TOTAL<br>PENDAPATAN</div>
+        </div>
+    </div>
+</div>
+
+<!-- Admin Products -->
+<div class="page">
+    <div class="page-title">9. KELOLA PRODUK</div>
+    <div class="content">
+        <div class="box">FORM TAMBAH PRODUK</div>
+        <table class="table">
+            <tr>
+                <th>NO</th>
+                <th>NAMA</th>
+                <th>KATEGORI</th>
+                <th>HARGA</th>
+                <th>STOK</th>
+                <th>AKSI</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>PRODUK A</td>
+                <td>MINUMAN</td>
+                <td>RP 5.000</td>
+                <td>10</td>
+                <td>EDIT | HAPUS</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- Admin Orders -->
+<div class="page">
+    <div class="page-title">10. KELOLA PESANAN</div>
+    <div class="content">
+        <div class="header">
+            <div>DAFTAR PESANAN</div>
+            <div>FILTER STATUS</div>
+        </div>
+        <table class="table">
+            <tr>
+                <th>NO</th>
+                <th>USER</th>
+                <th>PRODUK</th>
+                <th>TOTAL</th>
+                <th>STATUS</th>
+                <th>BUKTI</th>
+                <th>AKSI</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>JOHN DOE</td>
+                <td>PRODUK A</td>
+                <td>RP 10.000</td>
+                <td>PENDING</td>
+                <td>LIHAT</td>
+                <td>KONFIRMASI</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- Admin Users -->
+<div class="page">
+    <div class="page-title">11. KELOLA USER</div>
+    <div class="content">
+        <table class="table">
+            <tr>
+                <th>NO</th>
+                <th>NAMA</th>
+                <th>EMAIL</th>
+                <th>KELAS</th>
+                <th>GENDER</th>
+                <th>STATUS</th>
+                <th>AKSI</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>JOHN DOE</td>
+                <td>JOHN@EMAIL.COM</td>
+                <td>12 RPL 1</td>
+                <td>L</td>
+                <td>AKTIF</td>
+                <td>EDIT | HAPUS</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- Admin Reports -->
+<div class="page">
+    <div class="page-title">12. LAPORAN</div>
+    <div class="content">
+        <div class="grid grid-3">
+            <div class="box">LAPORAN<br>PENJUALAN</div>
+            <div class="box">LAPORAN<br>PRODUK</div>
+            <div class="box">LAPORAN<br>USER</div>
+        </div>
+        <div class="box" style="height: 200px; margin-top: 20px;">GRAFIK / CHART AREA</div>
+        <div class="box">EXPORT BUTTONS</div>
+    </div>
+</div>
+
+</body>
+</html>
